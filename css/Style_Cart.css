@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+	background-image: url(../assets/img/maze.png);
+	background-size: auto;
+	margin: 0;
+	display: grid;
+	font-family: 'Poppins', sans-serif;
+	color: #2D2D2D;
+	font-size: 14px;
+}
+@media screen and (min-width: 994px) {
+	.d-flex {
+		width: 300px;
+		height: 44px;
+		background-color: white;
+		border-radius: 25px;
+		display: flex;
+		align-items: center;
+		padding: 15px;
+	}
+}
+
+@media screen and (max-width: 994px) {
+	.navbar-nav {
+		text-align: center;
+	}
+}
+
+/*Searching Button*/
+.d-flex > input {
+	flex: 1;
+	height: 40px;
+	border-radius: 25px;
+	border: none;
+	outline: none;
+	font-size: 12px;
+	padding-left: 15px;
+}
+
+/*Text on Front of Image*/
+.bg-image {
+	position: relative;
+}
+
+/*Sizing Image*/
+.bg-image img {
+	width: 100%;
+    height: 301px;
+    object-fit: cover;
+    object-position: 20% 10%;
+}
+
+/*Center to middle*/
+.backgorund-text h2 {
+	color: white;
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+	font-family: 'Poppins', sans-serif;
+}
+
+/*Cart Item*/
+.cart-page {
+	margin: 80px auto ;
+}
+
+/*align tabel*/
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+/*merapihkan isi keranjang*/
+.cart-info {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*button untuk remove dan wishlist*/
+.button-heart button {
+	margin-top: 85px;
+}
+
+/*table product, quantity, price*/
+th {
+	text-align: left;
+	padding: 5px;
+	color: black;
+	background: white;
+	font-weight: normal;
+}
+
+/*font dalam keranjnag dan garis*/
+td {
+	padding: 10px 10px;
+	border-bottom: 1px solid #ffffff;
+	font-size: 18px;
+	color: white;
+}
+
+/*kotak untuk menambah barang*/
+td input {
+	width: 80px;
+	height: 40px;
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	margin-right: 170px;
+}
+
+/*menyesuaikan ukuran product img*/
+td img {
+	width: 275px;
+	height: 183px;
+	margin-right: 30px;
+}
+
+/*button checkout dan total*/
+.total-price {
+	display: flex;
+	justify-content: flex-end;
+}
+
+/*memberikan garis di total*/
+.total-price table {
+	border-top: 2px
+	width: 100%;
+	max-width: 380px;
+}
+
+/*agar total dan price align ke kanan*/
+td:last-child {
+	text-align: right;
+}
+
+/*agar bagian tab atas align ke kanan*/
+th:last-child {
+	text-align: right;
+}
+
+/*button scroll up ketika sudah di bawah*/
+#scrollUp {
+    background-image: url("../assets/img/top.png");
+    background-color: transparent;
+    color: transparent;
+    bottom: 20px;
+    right: 20px;
+    width: 38px;    
+    height: 38px;   
+}
+

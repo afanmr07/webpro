@@ -1,0 +1,246 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    }
+    
+body {
+    background-image: url(https://papers.co/wallpaper/papers.co-vy17-line-dark-pattern-background-black-26-wallpaper.jpg)
+}
+
+.padding {
+    padding: 20px !important
+}
+
+.user-card-full {
+    overflow: hidden
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 125px;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+    box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+    border: none;
+    margin-bottom: 30px
+}
+
+.m-r-0 {
+    margin-right: 0px
+}
+
+.m-l-0 {
+    margin-left: 0px
+}
+
+.user-card-full .user-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 0 0 5px
+}
+
+.bg-c-lite-green {
+       background: linear-gradient(to right, #000000, #ff2600)
+}
+
+.user-profile {
+    padding: 20px 0
+}
+
+.card-block {
+    
+    padding: 1.25rem
+    
+}
+
+.fotoprofil {
+    margin-bottom: 25px
+}
+
+.img-radius {
+    border-radius: 5px
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: lighter;
+    
+}
+h3 {
+    font-size: 14px;
+    font-weight: lighter;
+    
+}
+
+.details{
+    color: black;
+    font-size: 18;
+    font-weight: lighter;
+}
+
+.profiledata {
+    font-size: 14;
+    font-weight: normal;
+}
+
+.bios {
+    font-weight: 500;
+    font-size: 20;
+    
+}
+
+
+.card .card-block p {
+    line-height: 25px
+}
+
+@media only screen and (min-width: 1400px) {
+    p {
+        font-size: 14px
+    }
+}
+
+.card-block {
+    padding: 1.25rem
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0
+}
+
+.m-b-20 {
+    margin-bottom: 20px
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important
+}
+
+.card .card-block p {
+    line-height: 25px
+}
+
+.m-b-10 {
+    margin-bottom: 10px
+}
+
+.text-color {
+    color: #ffffff !important
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0
+}
+
+.f-w-600 {
+    font-weight: 600
+}
+
+.m-b-20 {
+    margin-bottom: 20px
+}
+
+.m-t-40 {
+    margin-top: 20px
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important
+}
+
+.m-b-10 {
+    margin-bottom: 10px
+}
+
+.m-t-40 {
+    margin-top: 20px
+}
+
+.user-card-full .social-link li {
+    display: inline-block
+}
+
+
+
+/*Searching Button*/
+.d-flex > input {
+	flex: 1;
+	height: 40px;
+	border-radius: 25px;
+	border: none;
+	outline: none;
+	font-size: 12px;
+	padding-left: 15px;
+}
+
+/* button edit */
+
+.button {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+
+.button:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+.button:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.button:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+
+.button:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.button:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.button:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}

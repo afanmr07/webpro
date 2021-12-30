@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    
+	background-color: #EAEAEA;
+	font-family: 'Poppins', sans-serif;
+	color: #2D2D2D;
+	font-size: 14px;
+}
+
+@media screen and (min-width: 994px) {
+	.d-flex {
+		width: 300px;
+		height: 44px;
+		background-color: white;
+		border-radius: 25px;
+		display: flex;
+		align-items: center;
+		padding: 15px;
+	}
+}
+
+@media screen and (max-width: 994px) {
+	.navbar-nav {
+		text-align: center;
+	}
+}
+.d-flex > input {
+	flex: 1;
+	height: 40px;
+	border-radius: 25px;
+	border: none;
+	outline: none;
+	font-size: 12px;
+	padding-left: 15px;
+}
+
+.bg-image {
+	position: relative;
+}
+
+.bg-image img {
+	width: 100%;
+    height: 301px;
+    object-fit: cover;
+    object-position: 20% 10%;
+}
+
+.backgorund-text h2 {
+	color: white;
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+	font-family: 'Poppins', sans-serif;
+}
+#scrollUp {
+    background-image: url("../assets/img/top.png");
+    background-color: transparent;
+    color: transparent;
+    bottom: 20px;
+    right: 20px;
+    width: 38px;    
+    height: 38px;   
+}
+
+
+.row{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.slider{
+    height: 80vh;
+    display: flex;
+}
+.product img{
+    height: 10vh;
+    margin-bottom: 9px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.product img:hover{
+    opacity: 1;
+	
+}
+
+.preview img{
+    height: 100%;
+}
+
+p{
+    margin-bottom: 20px;
+}
+.brand{
+    background: #000000;
+    width: fit-content;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 5px;
+}
+h2{
+    font-size: 30px;
+    color: #555;
+    margin-bottom: 20px;
+}
+.rating{
+    display: flex;
+    height: 20px;
+}
+.rating .fa{
+    color: #facb4a;
+}
+.price{
+    color: #fe980f;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+input{
+    width: 30px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    text-align: center;
+}
+button{
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    background: #fe980f;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+button .fa{
+    margin-right: 10px;
+}
+span{
+	line-height:20px;
+}
+
+.related{
+    width: 100%;
+    margin: 0 auto 40px;
+}
+.related .row{
+    width: 80%;
+    height: auto;
+}
+.columns{
+    flex-basis: 22%;
+    height: 100%;
+}
+.items img{
+    width: 100%;
+}
+.details{
+    margin-top: 20px;
+}
+.details p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.details .rating{
+    margin: 10px 0;
+}
